@@ -36,12 +36,13 @@ You have to install to this package by using:
 npm i styled-components
 ```
 
-Import library
+* Import library
 
 import styled from 'styled-components';
 
 You have to start with a capital letter to use it as a component.
 
+```React
 const StyledDiv = styled.div`
 	with: 90%;
 	max-width: 40rem;
@@ -58,6 +59,7 @@ function App() {
 		</StyledDiv>
 	);
 }
+```
 
 
 3. Normal CSS.
